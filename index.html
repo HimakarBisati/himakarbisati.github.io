@@ -3,79 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Himakar Bisati - Portfolio</title>
+    <title>Himakar Bisati | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Himakar Bisati</h1>
-        <p>Email: <a href="mailto:himakar1801@gmail.com">himakar1801@gmail.com</a> | Phone: +91 9381995017</p>
-        <p>GitHub: <a href="https://github.com/HimakarBisati">github.com/HimakarBisati</a> | LinkedIn: <a href="https://www.linkedin.com/in/himakarb/">linkedin.com/in/himakarb</a></p>
+        <div class="container">
+            <h1>Himakar Bisati</h1>
+            <p>Aspiring Python Full Stack Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section class="summary">
-        <h2>Professional Summary</h2>
-        <p>Motivated and detail-oriented B.Tech. graduate in Computer Science Engineering with hands-on experience in Python full-stack development and Data Structures & Algorithms (DSA). Developed and deployed scalable web applications, integrated responsive designs, and collaborated with teams to create AI-driven solutions. Eager to contribute technical and problem-solving skills to a dynamic development team.</p>
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Motivated and detail-oriented B.Tech graduate in Computer Science Engineering with hands-on experience in full-stack development. Proficient in Python, JavaScript, and various web technologies, with a strong foundation in Data Structures and Algorithms (DSA). I am passionate about leveraging my technical skills to solve real-world problems and create innovative solutions.</p>
+        <p>Location: Bengaluru, Karnataka, India</p>
+        <p>Email: <a href="mailto:himakar1801@gmail.com">himakar1801@gmail.com</a></p>
+        <p>Phone: +91 9381995017</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/himakarb">Himakar Bisati</a></p>
     </section>
 
-    <section class="skills">
-        <h2>Technical Skills</h2>
-        <div class="skill-category">
-            <h3>Data Structures & Algorithms</h3>
-            <p>Python, DSA</p>
-        </div>
-        <div class="skill-category">
-            <h3>Frontend Development</h3>
-            <p>JavaScript, HTML, CSS, React.js</p>
-        </div>
-        <div class="skill-category">
-            <h3>Backend Development</h3>
-            <p>Python, Django, Spring Boot, REST API Development</p>
-        </div>
-        <div class="skill-category">
-            <h3>Database Management</h3>
-            <p>SQL, MySQL</p>
-        </div>
-        <div class="skill-category">
-            <h3>Version Control</h3>
-            <p>Git, GitHub</p>
-        </div>
+    <section id="skills" class="container">
+        <h2>Top Skills</h2>
+        <ul>
+            <li>Data Structures and Algorithms (DSA)</li>
+            <li>Python (Programming Language)</li>
+            <li>JavaScript</li>
+            <li>Django</li>
+            <li>React.js</li>
+            <li>HTML, CSS</li>
+            <li>MySQL</li>
+            <li>Git, GitHub</li>
+        </ul>
     </section>
 
-    <section class="experience">
-        <h2>Internship Experience</h2>
-        <div class="internship">
-            <h3>Web Developer Intern, Prowork</h3>
-            <p><strong>August 2023 - September 2023</strong></p>
-            <ul>
-                <li>Improved user satisfaction by 35% through developing a web application that reduced customer support queries by 40%.</li>
-                <li>Enhanced system stability by 15% by creating detailed troubleshooting strategies and test cases.</li>
-                <li>Integrated a generative AI model for customer engagement, serving over 500 unique users daily.</li>
-            </ul>
-        </div>
-        <div class="internship">
-            <h3>UX Designer Intern, Prowork</h3>
-            <p><strong>November 2023 - April 2024</strong></p>
-            <ul>
-                <li>Led a UI redesign, resulting in a 20% increase in user satisfaction and a 15% reduction in onboarding time.</li>
-                <li>Collaborated closely with developers to enhance user interfaces using HTML, CSS, and JavaScript.</li>
-            </ul>
-        </div>
+    <section id="experience" class="container">
+        <h2>Experience</h2>
+        <h3>Prowork - UX Designer Intern</h3>
+        <p>November 2023 - April 2024</p>
+        <ul>
+            <li>Led a UI redesign, resulting in a 20% increase in user satisfaction.</li>
+            <li>Established troubleshooting protocols, boosting system reliability by 25%.</li>
+            <li>Collaborated closely with developers to enhance user interfaces using HTML, CSS, and JavaScript.</li>
+        </ul>
+
+        <h3>Prowork - Web Developer Intern</h3>
+        <p>August 2023 - September 2023</p>
+        <ul>
+            <li>Improved user satisfaction by 35% through a web application that reduced customer support queries by 40%.</li>
+            <li>Integrated a generative AI model for customer engagement, serving over 500 unique users daily.</li>
+        </ul>
     </section>
 
-    <section class="projects">
+    <section id="projects" class="container">
         <h2>Projects</h2>
-        <div class="project">
-            <h3>Bank Management System (Python)</h3>
-            <p>Designed a comprehensive bank management system with features such as account creation, deposits, withdrawals, and balance tracking.</p>
-        </div>
-        <div class="project">
-            <h3>E-commerce Website</h3>
-            <p>Developed a fully responsive e-commerce platform, increasing user engagement with dynamic product listings and an interactive shopping cart.</p>
-        </div>
+        <h3>Bank Management System (Python)</h3>
+        <p>Designed a comprehensive bank management system with features such as account creation, deposits, and withdrawals.</p>
+        <p>Technologies Used: Python, Data Structures, MySQL</p>
+
+        <h3>E-commerce Website</h3>
+        <p>Developed a fully responsive e-commerce platform with dynamic product listings.</p>
+        <p>Technologies Used: HTML, CSS, JavaScript, Bootstrap</p>
     </section>
 
-    <section class="certifications">
+    <section id="certifications" class="container">
         <h2>Certifications & Training</h2>
         <ul>
             <li>Python Full Stack Development, ScholarLogic (February 2024 - August 2024)</li>
@@ -84,8 +85,20 @@
         </ul>
     </section>
 
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
     <footer>
-        <p>© 2024 Himakar Bisati</p>
+        <p>&copy; 2024 Himakar Bisati. All Rights Reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
